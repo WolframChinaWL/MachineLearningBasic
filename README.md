@@ -1,4 +1,4 @@
-#Wolfram 机器学习中文系列讲座
+Wolfram 机器学习中文系列讲座
 
 Description
 
