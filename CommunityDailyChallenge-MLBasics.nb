@@ -1,0 +1,163 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5494,        155]
+NotebookOptionsPosition[      3967,        120]
+NotebookOutlinePosition[      4361,        136]
+CellTagsIndexPosition[      4318,        133]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Day 1", "Section",
+ CellChangeTimes->{{3.814303248788221*^9, 
+  3.814303249528561*^9}},ExpressionUUID->"ea365abd-da60-4fd8-9d43-\
+cd265ce605d1"],
+
+Cell["A challenge in honor of NaNoWriMo.", "Text",
+ CellChangeTimes->{{3.814304852844968*^9, 
+  3.8143048700876827`*^9}},ExpressionUUID->"b24f1ab2-9e81-48fd-9091-\
+fd0f93cbec0a"],
+
+Cell["\<\
+Write a short story or select a story you like from the public domain. Use \
+the \[OpenCurlyDoubleQuote]Sentiment\[CloseCurlyDoubleQuote] classifier to \
+detect the sentiment in each sentence. Plot the probability of the sentiment \
+being \[OpenCurlyDoubleQuote]Positive\[CloseCurlyDoubleQuote] as the story \
+proceeds. 
+Now go and edit the sentences, changing the plot of the story and see if you \
+can give a distinct shape to the plot showing the probability of the \
+\[OpenCurlyDoubleQuote]Positive\[CloseCurlyDoubleQuote] sentiment.\
+\>", "Text",
+ CellChangeTimes->{{3.8143047516469107`*^9, 3.814304833070615*^9}, {
+  3.814304876043043*^9, 3.814304903116487*^9}, {3.814305012867193*^9, 
+  3.814305169146434*^9}},ExpressionUUID->"34b0c106-4ea7-4e89-8291-\
+c2ca6b45f954"],
+
+Cell["Post your story and the sentiment curve.", "Text",
+ CellChangeTimes->{{3.8143052407443647`*^9, 
+  3.8143052507655487`*^9}},ExpressionUUID->"49feaafd-2988-4d30-8b27-\
+d86213a4478c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Day 2", "Section",
+ CellChangeTimes->{{3.814305173128965*^9, 
+  3.814305173838489*^9}},ExpressionUUID->"1628a972-bffc-4db0-ac30-\
+d00d11d494ef"],
+
+Cell["\<\
+THis may not be very realistic but try to build a predictor function to \
+predict the age of the president based on the text of his state of the union \
+address. Data at \
+https://datarepository.wolframcloud.com/resources/State-of-the-Union-Addresses\
+\>", "Text",
+ CellChangeTimes->{{3.814305178586506*^9, 3.814305184023633*^9}, {
+  3.814305261478299*^9, 3.814305269794697*^9}, {3.814305901168619*^9, 
+  3.814305941730393*^9}},ExpressionUUID->"596bb01b-eb17-4fa8-b01b-\
+722981d14b3a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Day 3", "Section",
+ CellChangeTimes->{{3.8143060037396917`*^9, 
+  3.814306007473296*^9}},ExpressionUUID->"7086967c-11ed-45a7-a962-\
+8fb519e8f0c9"],
+
+Cell["\<\
+NaNoWriMo again. Rather NaNoGenMo - train a SequencePredictorFunction to \
+generate a novel. \
+\>", "Text",
+ CellChangeTimes->{{3.814306010654003*^9, 3.814306134537455*^9}, {
+  3.814306227162327*^9, 
+  3.814306234896882*^9}},ExpressionUUID->"3b4f0217-bb21-44d9-89ed-\
+0e027df4bd89"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Day 4", "Section",
+ CellChangeTimes->{{3.81430613954618*^9, 
+  3.814306140863556*^9}},ExpressionUUID->"8b47d6b5-1adc-47bd-b842-\
+40df1b4c6a06"],
+
+Cell["\<\
+Use a neural net model from the neural net repo and try net surgery to modify \
+it to perform a different task from what it was created to perform.\
+\>", "Text",
+ CellChangeTimes->{{3.814306148483878*^9, 
+  3.8143062052136087`*^9}},ExpressionUUID->"dc40b6db-4fc3-4cec-857a-\
+c68c0ab5045f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Day 5", "Section",
+ CellChangeTimes->{{3.8143062003495007`*^9, 
+  3.814306201201048*^9}},ExpressionUUID->"b2080643-d296-46dd-8733-\
+bed3f555dd21"],
+
+Cell["\<\
+Build and deploy a fun web app. Share it her for others to try.\
+\>", "Text",
+ CellChangeTimes->{{3.814306207183346*^9, 
+  3.8143062224235373`*^9}},ExpressionUUID->"922a416e-01b9-49db-af5d-\
+5a2338413156"]
+}, Open  ]]
+},
+WindowSize->{808, 755},
+WindowMargins->{{60, Automatic}, {Automatic, 24}},
+FrontEndVersion->"12.1 for Mac OS X x86 (64-bit) (March 18, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"433c361c-dc9a-436d-8ffd-f53c84ceea9a"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 150, 3, 84, "Section",ExpressionUUID->"ea365abd-da60-4fd8-9d43-cd265ce605d1"],
+Cell[733, 27, 178, 3, 44, "Text",ExpressionUUID->"b24f1ab2-9e81-48fd-9091-fd0f93cbec0a"],
+Cell[914, 32, 784, 13, 159, "Text",ExpressionUUID->"34b0c106-4ea7-4e89-8291-c2ca6b45f954"],
+Cell[1701, 47, 186, 3, 44, "Text",ExpressionUUID->"49feaafd-2988-4d30-8b27-d86213a4478c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1924, 55, 150, 3, 84, "Section",ExpressionUUID->"1628a972-bffc-4db0-ac30-d00d11d494ef"],
+Cell[2077, 60, 495, 9, 102, "Text",ExpressionUUID->"596bb01b-eb17-4fa8-b01b-722981d14b3a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2609, 74, 152, 3, 84, "Section",ExpressionUUID->"7086967c-11ed-45a7-a962-8fb519e8f0c9"],
+Cell[2764, 79, 292, 7, 73, "Text",ExpressionUUID->"3b4f0217-bb21-44d9-89ed-0e027df4bd89"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3093, 91, 149, 3, 84, "Section",ExpressionUUID->"8b47d6b5-1adc-47bd-b842-40df1b4c6a06"],
+Cell[3245, 96, 299, 6, 73, "Text",ExpressionUUID->"dc40b6db-4fc3-4cec-857a-c68c0ab5045f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3581, 107, 152, 3, 84, "Section",ExpressionUUID->"b2080643-d296-46dd-8733-bed3f555dd21"],
+Cell[3736, 112, 215, 5, 44, "Text",ExpressionUUID->"922a416e-01b9-49db-af5d-5a2338413156"]
+}, Open  ]]
+}
+]
+*)
+
